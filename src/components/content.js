@@ -7,7 +7,7 @@ import { COLORS } from "../styles/constants"
 const Content = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
     <SectionHeader
-      title="Minimal Features"
+      title="Services"
       description="Don't spend time ripping out unneeded plugins and bloat."
     />
     <content
