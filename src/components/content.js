@@ -1,6 +1,9 @@
 import React from "react"
 
 import feature from "../images/feature.png"
+import manWithBoxes from "../images/manWithBoxes.jpg"
+import wasteClearance from "../images/wasteClearance.jpg"
+import sofa from "../images/sofa.png"
 import SectionHeader from "./section-header"
 import { COLORS } from "../styles/constants"
 
@@ -13,7 +16,7 @@ const Content = () => (
     <content
       style={{
         display: "grid",
-        // alignItems: "center",
+        alignItems: "center",
         justifyContent: "center",
         gridTemplateColumns: "repeat(auto-fit, minmax(240px, 340px))",
       }}
@@ -25,7 +28,7 @@ const Content = () => (
         </p>
       </div>
       <div>
-        {/* <img src={feature} alt="a blank card floating over colorful graphics" /> */}
+        <img style={{ margin:'20px',height:'200px'}} src={manWithBoxes} alt="a blank card floating over colorful graphics" />
       </div>
     </content>
     
@@ -46,7 +49,7 @@ const Content = () => (
         </p>
       </div>
       <div>
-        {/* <img src={feature} alt="a blank card floating over colorful graphics" /> */}
+        <img style={{ margin:'20px',height:'200px'}} src={sofa} alt="a blank card floating over colorful graphics" />
       </div>
     </content>
 
@@ -66,7 +69,7 @@ const Content = () => (
         </p>
       </div>
       <div>
-        {/* <img src={feature} alt="a blank card floating over colorful graphics" /> */}
+        <img style={{ margin:'20px',height:'200px'}} src={wasteClearance} alt="a blank card floating over colorful graphics" />
       </div>
     </content>
 
