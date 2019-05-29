@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         backgroundColor: '#4885ed',
-        // backgroundImage: `url(${headerImage})`,
+        backgroundImage: `url(${headerImage})`,
         position: "absolute",
         top: 0,
         zIndex: -5,
