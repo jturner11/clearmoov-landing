@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         backgroundColor: '#4885ed',
-        backgroundImage: `url(${headerImage})`,
+        // backgroundImage: `url(${headerImage})`,
         position: "absolute",
         top: 0,
         zIndex: -5,
@@ -29,7 +29,7 @@ const Header = ({ siteTitle }) => (
     />
     <div
       style={{
-        margin:"30px",
+        margin:"50px",
         width: "300px",
         top: 0,
       }}
@@ -39,10 +39,30 @@ const Header = ({ siteTitle }) => (
         alt="outlines of shapes and confetti in the background "
       />
     </div>
-      <h3 style={{fontFamily: 'ProximaNova,Montserrat,sans-serif', color:'white'}}>Move anything anywhere with Clearmoov</h3>
-      <h3 style={{ textAlign: "center", maxWidth: 440, color: 'white', opacity:'1', fontFamily: 'ProximaNova,Montserrat,sans-serif', color:'white'}}>
-        The UK’s favourite delivery, removals and transport marketplace
-      </h3>
+      <p style={{
+        textAlign: "center", 
+        fontFamily: 'font-family: proxima-nova, "Proxima Nova", sans-serif;',
+        color:'white',
+        fontSize:'2.3rem',
+        fontWeight:'600',
+        maxWidth: 550, 
+        padding: '4px',
+        lineHeight: 1
+      }}>
+        Move anything anywhere
+      </p>
+      <p style={{
+        textAlign: "center", 
+        maxWidth: 550, 
+        color: 'white', 
+        opacity:'1', 
+        fontFamily: 'font-family: proxima-nova, "Proxima Nova", sans-serif;', 
+        color:'white', 
+        fontSize:'20px',
+        fontWeight:'400'
+      }}>
+        The UK’s favourite delivery, removals and transport company
+      </p>
     <Button>Contact us</Button>
   </div>
 )

@@ -8,25 +8,33 @@ const Content = () => (
   <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
     <SectionHeader
       title="Services"
-      description="Don't spend time ripping out unneeded plugins and bloat."
+      description="Clearmoov offer a range of services, see below to find the one you need."
     />
     <content
       style={{
         display: "grid",
-        alignItems: "center",
+        // alignItems: "center",
         justifyContent: "center",
         gridTemplateColumns: "repeat(auto-fit, minmax(240px, 340px))",
       }}
     >
       <div>
-        <h3>What you need to Start</h3>
+        <h3>Clearmoov man & Van</h3>
         <p style={{ color: COLORS.gray }}>
-          Includes plugins for analytics, building sitemaps, and optimizing
-          images
+        Man and Van is ideal for small moves, you can choose how much of the service you need. We provide any packing materials you need, as well as a home cleaning service. 
         </p>
       </div>
       <div>
-        <img src={feature} alt="a blank card floating over colorful graphics" />
+        {/* <img src={feature} alt="a blank card floating over colorful graphics" /> */}
+      </div>
+      <div>
+        <h3>Local & National Removals</h3>
+        <p style={{ color: COLORS.gray }}>
+          We provide a personal service and ensure customer service is our highest priority. 
+        </p>
+      </div>
+      <div>
+        {/* <img src={feature} alt="a blank card floating over colorful graphics" /> */}
       </div>
     </content>
   </div>
