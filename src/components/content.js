@@ -3,6 +3,7 @@ import React from "react"
 import feature from "../images/feature.png"
 import manWithBoxes from "../images/manWithBoxes.jpg"
 import wasteClearance from "../images/wasteClearance.jpg"
+import houseClearance from "../images/houseClearance.jpg"
 import sofa from "../images/sofa.png"
 import SectionHeader from "./section-header"
 import { COLORS } from "../styles/constants"
@@ -90,7 +91,7 @@ const Content = () => (
         </p>
       </div>
       <div>
-        {/* <img src={feature} alt="a blank card floating over colorful graphics" /> */}
+        <img style={{ margin:'20px',height:'200px'}} src={houseClearance} alt="a blank card floating over colorful graphics" />
       </div>
     </content>
   </div>

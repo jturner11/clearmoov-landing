@@ -23,5 +23,11 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: 'https://gmail.us20.list-manage.com/subscribe/post?u=6d2a933c4b2e40779c55fa112&amp;id=63a3be20b8', // add your MC list endpoint here; see instructions below
+      },
+    },
   ],
 }

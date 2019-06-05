@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => (
         position: "absolute",
         top: 0,
         zIndex: -5,
-        height: "75vh",
+        height: "80vh",
         width: "100vw",
         opacity: 0.9,
       }}
@@ -41,7 +41,7 @@ const Header = ({ siteTitle }) => (
     </div>
       <p style={{
         textAlign: "center", 
-        fontFamily: 'font-family: proxima-nova, "Proxima Nova", sans-serif;',
+        fontFamily: 'font-family: proxima-nova, "Proxima Nova", sans-serif',
         color:'white',
         fontSize:'2.3rem',
         fontWeight:'600',
